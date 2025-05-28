@@ -1,0 +1,40 @@
+/* body style */
+body{
+    background-color: #AEC8A4;
+    text-align: center;
+}
+
+
+/* h1 heading style and animation */
+h1{
+    font-size: 5.3rem;
+    color: #fff;
+    background: url("/photos/Screenshot\ 2025-05-28\ 213357.png");  /*you can use any background photo instead of this*/
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    animation: animate 10s linear infinite;
+    position: absolute;
+    top: 70px;
+    left: 500px;
+}
+
+@keyframes animate {
+    to{
+        background-position-x: -200px;
+    }
+}
+
+
+
+/* actual clock */
+#clock{
+    font-size: 10rem;
+    margin-top: 200px;
+    text-align: center;
+    color: #8A784E;
+    position: absolute;
+    top: 70px;
+    left: 350px;
+}
+
