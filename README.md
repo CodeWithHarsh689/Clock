@@ -1,1 +1,1 @@
-This is a code of showing how a DIGITAL CLOCK can be made or work.
+This is a code of showing how a DIGITAL CLOCK can be made or work. 
